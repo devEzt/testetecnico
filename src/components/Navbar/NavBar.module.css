@@ -1,0 +1,50 @@
+.navbar {
+  @apply absolute;
+  @apply w-navbar;
+  @apply h-navbar;
+  @apply pt-navbar-top;
+  @apply mx-auto;
+  @apply left-0;
+  @apply right-0;
+  @apply flex;
+  @apply items-center;
+  @apply justify-between;
+  @apply px-4;
+}
+
+.icon-left {
+  @apply absolute;
+  @apply w-icon;
+  @apply h-icon;
+  @apply text-white;
+  @apply text-icon;
+  @apply font-fontawesome;
+  @apply leading-icon;
+  @apply left-icon-left;
+  @apply top-0;
+}
+
+.icon-right {
+  @apply absolute;
+  @apply w-icon;
+  @apply h-icon;
+  @apply text-white;
+  @apply text-icon;
+  @apply font-fontawesome;
+  @apply leading-icon;
+  @apply right-icon-right;
+  @apply top-0;
+}
+
+.title {
+  @apply absolute;
+  @apply w-title;
+  @apply h-title;
+  @apply text-white;
+  @apply text-title;
+  @apply font-bebasneue;
+  @apply font-title;
+  @apply uppercase;
+  @apply leading-title;
+  @apply inset-title;
+}

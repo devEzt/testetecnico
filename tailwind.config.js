@@ -1,18 +1,46 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      width: {
+        navbar: '81.6%',
+        icon: '46px',
+        title: '96px',
+      },
+      height: {
+        navbar: '50px',
+        icon: '46px',
+        title: '44px',
+      },
+      padding: {
+        'navbar-top': '70px',
+      },
+      fontSize: {
+        icon: '46px',
+        title: '46px',
+      },
+      fontFamily: {
+        fontawesome: ['Font Awesome 6 Free'],
+        bebasneue: ['Bebas Neue'],
+      },
+      fontWeight: {
+        fontawesome: 900,
+        title: 700,
+      },
+      inset: {
+        navbar: 'calc(50% - 1566px/2)',
+        title: 'calc(50% - 96px/2)',
+        'icon-left': '0%',
+        'icon-right': '0%',
+      },
+      top: {
+        navbar: '70px',
+      },
+      lineHeight: {
+        icon: '46px',
+        title: '46px',
       },
     },
   },
+  variants: {},
   plugins: [],
 }
